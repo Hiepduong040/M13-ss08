@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin-left: 100px;
+}
+
+.child {
+  margin-left: 50px;
+}
+
+.parent:hover {
+  color: red;
+}
